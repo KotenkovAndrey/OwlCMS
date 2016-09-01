@@ -1,0 +1,16 @@
+AddDefaultCharset utf-8
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^.htaccess$ - [F]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} !\.(ico|css|js|txt)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !^/adm
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ /index.php?route=$1 [L]

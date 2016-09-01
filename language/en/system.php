@@ -1,0 +1,48 @@
+<?php
+global $_LANG;
+
+$_LANG['lang']='language';
+$_LANG['lang all']='all languages';
+$_LANG['lang ru']='russian';
+$_LANG['lang en']='english';
+$_LANG['debug']='debug';
+$_LANG['name']='name';
+$_LANG['save']='save';
+$_LANG['login']='login';
+$_LANG['send']='send';
+$_LANG['submit']='submit';
+$_LANG['key']='key';
+$_LANG['icon']='icon';
+$_LANG['Debug mode']='Debug mode';
+$_LANG['Cache is disabled']='Cache is disabled';
+$_LANG['TEXT_SLOGAN']='We make fast websites.';
+$_LANG['TEXT_CHOICE_COMPONENT']='Choice component';
+$_LANG['TEXT_WE_SOCIAL']='We are in social networks';
+$_LANG['contact form title']='Feedback form';
+$_LANG['contact form question']='Your question';
+$_LANG['contact form submit']='Thank you for question, and we will soon get back to you.';
+$_LANG['COMPONENT 404 page']='404 page';
+$_LANG['COMPONENT main page pills']='Main page pills';
+$_LANG['COMPONENT articles']='Articles';
+$_LANG['COMPONENT projects']='Projects';
+$_LANG['COMPONENT work']='Our work';
+$_LANG['COMPONENT docs']='Documentation';
+$_LANG['COMPONENT contacts']='Contacts';
+$_LANG['generate form parent']='Parent element (parent_id - int)';
+$_LANG['generate form user']='Author (user_id - int)';
+$_LANG['generate form image']='Image';
+$_LANG['generate form content']='html content';
+$_LANG['generate form date_create']='Creation date';
+$_LANG['generate form date_edit']='Edit date';
+$_LANG['generate form date_published']='Published date';
+$_LANG['generate form date_end_published']='End of published date';
+$_LANG['generate form lang']='Language support(for category too) (lang - str)';
+$_LANG['generate form access_level']='Access level(for category too) (access_level - int)';
+$_LANG['generate form category_parent']='Parent element for category (parent_id - int)';
+$_LANG['generate form category_user']='Author of category(user_id - int)';
+$_LANG['generate form category_image']='Image of category';
+$_LANG['generate form category_date_create']='Creation category date';
+$_LANG['generate form category_date_edit']='Edit category date';
+$_LANG['generate form category_date_published']='Published category date';
+$_LANG['generate form category_date_end_published']='End of published category date';
+?>

@@ -1,0 +1,48 @@
+<?php
+global $_LANG;
+
+$_LANG['lang']='язык';
+$_LANG['lang all']='все языки';
+$_LANG['lang ru']='русский';
+$_LANG['lang en']='английский';
+$_LANG['debug']='отладка';
+$_LANG['name']='имя';
+$_LANG['save']='сохранить';
+$_LANG['login']='вход';
+$_LANG['send']='отправить';
+$_LANG['submit']='отправить';
+$_LANG['key']='ключ';
+$_LANG['icon']='иконка';
+$_LANG['Debug mode']='Режим отладки';
+$_LANG['Cache is disabled']='Кэширование отключено';
+$_LANG['TEXT_SLOGAN']='Мы делаем быстрые сайты.';
+$_LANG['TEXT_CHOICE_COMPONENT']='Выбор компонента';
+$_LANG['TEXT_WE_SOCIAL']='Мы в социальных сетях';
+$_LANG['contact form title']='Форма обратной связи';
+$_LANG['contact form question']='Ваш вопрос';
+$_LANG['contact form submit']='Ваш вопрос принят и в ближайшее время мы Вам ответим.';
+$_LANG['COMPONENT 404 page']='Страница 404';
+$_LANG['COMPONENT main page pills']='Плитки на главной';
+$_LANG['COMPONENT articles']='Полезные статьи';
+$_LANG['COMPONENT projects']='Наши проекты';
+$_LANG['COMPONENT work']='Создание сайтов';
+$_LANG['COMPONENT docs']='Документация';
+$_LANG['COMPONENT contacts']='Контакты';
+$_LANG['generate form parent']='Родительский элемент (parent_id - int)';
+$_LANG['generate form user']='Привязка к пользователю (user_id - int)';
+$_LANG['generate form image']='Картинка';
+$_LANG['generate form content']='html контент';
+$_LANG['generate form date_create']='Дата создания';
+$_LANG['generate form date_edit']='Дата редактирования';
+$_LANG['generate form date_published']='Дата публикации';
+$_LANG['generate form date_end_published']='Дата окончания публикации';
+$_LANG['generate form lang']='Привязка к языку(для категории тоже) (lang - str)';
+$_LANG['generate form access_level']='Права доступа(для категории тоже) (access_level - int)';
+$_LANG['generate form category_parent']='Родительский элемент для категории (parent_id - int)';
+$_LANG['generate form category_user']='Привязка категории к пользователю (user_id - int)';
+$_LANG['generate form category_image']='Картинка категории';
+$_LANG['generate form category_date_create']='Дата создания категории';
+$_LANG['generate form category_date_edit']='Дата редактирования категории';
+$_LANG['generate form category_date_published']='Дата публикации категории';
+$_LANG['generate form category_date_end_published']='Дата окончания публикации категории';
+?>
